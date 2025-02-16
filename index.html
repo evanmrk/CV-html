@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Evan Markus Tafonao</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Evan Markus Tafonao</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="assets/provilcv.jpg" alt="Evan" />
+      </div>
+      <div class="section__text">
+        <p class="section__text_p1">I'm</p>
+        <h1 class="title">Evan Markus Tafonao</h1>
+        <h4 class="title-h2">Chief Technology Officer Of <span>SpaceX</span></h4>
+        <!-- <p class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets')">CV</button>
+        </p> -->
+      </div>
+      <div id="socials-container">
+        <!-- <img src="./assets/github.png" alt="Github" class="icon" onclick="location.href='https://github.com'"> -->
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <img src="./assets/evn1.jpg" alt="About Picture" class="about-pic" />
+        <div class="about-details-container">
+          <div class="about-content">
+            <p>
+              Saya adalah seorang mahasiswa Teknologi Informasi yang sedang menempuh pendidikan di Universitas Sumatera Utara.
+               Saya memiliki minat yang besar dalam pengembangan web dan desain antarmuka pengguna. 
+               Saya memiliki pengalaman dalam pengembangan web dengan HTML, CSS, dan JavaScript.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="section-container">
+        <div class="experience-item">
+          <img src="./assets/experience.png" alt="Experience Icon" class="experience-icon">
+          <h3>Full Stack</h3>
+          <p>SpaceX - 2027 - Now</p>
+        <div class="experience-item">
+          <img src="./assets/usu.png" alt="Experience Icon" class="experience-icon">
+          <h3>Teknologi Informasi</h3>
+          <p>USU 2024-2027</p>
+        </div>
+      </div>
+    </section>
+    <section id="project">
+      <p class="section_text_p1">My Recent Work</p>
+      <h1 class="title">Projects</h1>
+      <div class="section-container">
+        <div class="project-card">
+          <img src="./assets/ss1.png" alt="Project 1">
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>Website personal yang menampilkan profil dan karya saya.</p>
+          </div>
+        </div>
+    
+        <div class="project-card">
+          <img src="./assets/X1.jpg" alt="Project 2">
+          <div class="project-info">
+            <h3>Other</h3>
+            <p>Prestasi Lainnya.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacts">
+      <p class="section__text_p1">Get in Touch</p>
+      <h1>Contact Me</h1>
+      <div class="section-container">
+        <div class="contact-form"></div>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img src="./assets/email.png" alt="" class="icon contact-icon">
+              <p><a href="https://mail.google.com/">evanmarkustafonao@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+              <img src="./assets/github.png" alt="" class="icon contact-icon">
+              <p><a href="https://github.com/evanmrk">evanmrk</a></p>
+            </div>
+
+      </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contacts">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Evan Markus Tafonao</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  </html>
+  
